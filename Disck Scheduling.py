@@ -77,6 +77,7 @@ def plot_sequences(head, ga_seq, fcfs_seq, sstf_seq, scan_seq):
     plt.show()
 
 # Input from user
+print("Welcome to Disk Scheduling Comparator!") 
 requests_input = input("Enter disk requests separated by spaces: ")
 requests = list(map(int, requests_input.strip().split()))
 head_start = int(input("Enter initial head position: "))
